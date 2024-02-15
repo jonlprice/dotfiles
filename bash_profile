@@ -14,6 +14,8 @@ complete -C /opt/homebrew/bin/terraform terraform
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
 export PATH
+PATH=${PATH}:/Users/jonprice/projects/java/apache-maven-3.9.6/bin
+export PATH
 
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
